@@ -4,7 +4,7 @@ context("rcpp_read_out_of_bound")
 library(testUBSAN)
 
 
-user.display <- user_error_display("~/R/testUBSAN/inst/include/read_out_of_bound_log")
+user.display <- user_error_display("read_out_of_bound_log")
 test_that("valgrind errors", {
   expect_match(user.display$arg.name,"sizeofarray")
   expect_match(user.display$src.file.lines,"read_out_of_bound.cpp")
