@@ -1,5 +1,5 @@
 {
-    "path" : "~/R/testUBSAN/man",
+    "path" : "~/R/testUBSAN/tests/testthat",
     "sortOrder" : [
         {
             "ascending" : false,

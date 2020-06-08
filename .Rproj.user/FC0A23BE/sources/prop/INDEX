@@ -12,6 +12,7 @@
 ~%2FR%2FRcppDeepState%2Finst%2Ftestpkgs%2FtestUBSAN%2Fsrc%2Foverflow.cpp="D0DB17E0"
 ~%2FR%2FRcppDeepState%2Finst%2Ftestpkgs%2FtestUBSAN%2Ftests%2Ftestrcppoverflow.R="C5959CAF"
 ~%2FR%2Fsanitizers%2Ftests%2FtestStackAddressSanitize.R="E00653E3"
+~%2FR%2FtestUBSAN%2F.Rbuildignore="83C03C34"
 ~%2FR%2FtestUBSAN%2FDESCRIPTION="367E6154"
 ~%2FR%2FtestUBSAN%2FNAMESPACE="A7F1C952"
 ~%2FR%2FtestUBSAN%2FR%2FCreateRcppTestharness.R="CA355AB8"
