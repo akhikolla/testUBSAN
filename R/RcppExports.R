@@ -6,7 +6,7 @@
 #' @param sizeofarray gives size of array 
 #' @return index of array out of bound
 rcpp_read_out_of_bound <- function(sizeofarray) {
-    .Call(`_testUBSAN_rcpp_read_out_of_bound`, sizeofarray)
+    .Call('_testUBSAN_rcpp_read_out_of_bound', PACKAGE = 'testUBSAN', sizeofarray)
 }
 
 #' use after deallocate
@@ -14,7 +14,7 @@ rcpp_read_out_of_bound <- function(sizeofarray) {
 #' @param size of array 
 #' @return index of array after deleting it
 rcpp_use_after_deallocate <- function(size) {
-    .Call(`_testUBSAN_rcpp_use_after_deallocate`, size)
+    .Call('_testUBSAN_rcpp_use_after_deallocate', PACKAGE = 'testUBSAN', size)
 }
 
 #' use after free 
@@ -22,7 +22,7 @@ rcpp_use_after_deallocate <- function(size) {
 #' @param size_free free size of the array 
 #' @return index of array after freeing it
 rcpp_use_after_free <- function(size_free) {
-    .Call(`_testUBSAN_rcpp_use_after_free`, size_free)
+    .Call('_testUBSAN_rcpp_use_after_free', PACKAGE = 'testUBSAN', size_free)
 }
 
 #' write index outofbound
@@ -30,7 +30,7 @@ rcpp_use_after_free <- function(size_free) {
 #' @param boundvalue value stored in index 
 #' @return stack_array index greater than size
 rcpp_write_index_outofbound <- function(boundvalue) {
-    .Call(`_testUBSAN_rcpp_write_index_outofbound`, boundvalue)
+    .Call('_testUBSAN_rcpp_write_index_outofbound', PACKAGE = 'testUBSAN', boundvalue)
 }
 
 #' zero sized array
@@ -38,6 +38,6 @@ rcpp_write_index_outofbound <- function(boundvalue) {
 #' @param vectorvalue value at index zero
 #' @return ptr value at zero index
 rcpp_zero_sized_array <- function(vectorvalue) {
-    .Call(`_testUBSAN_rcpp_zero_sized_array`, vectorvalue)
+    .Call('_testUBSAN_rcpp_zero_sized_array', PACKAGE = 'testUBSAN', vectorvalue)
 }
 
