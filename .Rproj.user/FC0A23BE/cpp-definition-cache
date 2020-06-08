@@ -1,0 +1,119 @@
+[
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/akhila/R/testUBSAN/inst/include/overflow_DeepState_TestHarness.cpp",
+        "file_last_write" : 1591045263.000000
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/akhila/R/testUBSAN/inst/include/read_out_of_bound_DeepState_TestHarness.cpp",
+        "file_last_write" : 1591571007.000000
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/akhila/R/testUBSAN/inst/include/use_after_deallocate_DeepState_TestHarness.cpp",
+        "file_last_write" : 1591571007.000000
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/akhila/R/testUBSAN/inst/include/use_after_free_DeepState_TestHarness.cpp",
+        "file_last_write" : 1591571007.000000
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/akhila/R/testUBSAN/inst/include/write_index_outofbound_DeepState_TestHarness.cpp",
+        "file_last_write" : 1591571007.000000
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/akhila/R/testUBSAN/inst/include/zero_sized_array_DeepState_TestHarness.cpp",
+        "file_last_write" : 1591571007.000000
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/akhila/R/testUBSAN/src/int_overflow.cpp",
+        "file_last_write" : 1590379958.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "/home/akhila/R/testUBSAN/src/read_out_of_bound.cpp",
+                "kind" : 6,
+                "line" : 7,
+                "name" : "rcpp_read_out_of_bound(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_read_out_of_bound#I#"
+            }
+        ],
+        "file" : "/home/akhila/R/testUBSAN/src/read_out_of_bound.cpp",
+        "file_last_write" : 1591569534.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "/home/akhila/R/testUBSAN/src/use_after_deallocate.cpp",
+                "kind" : 6,
+                "line" : 4,
+                "name" : "rcpp_use_after_deallocate(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_use_after_deallocate#I#"
+            }
+        ],
+        "file" : "/home/akhila/R/testUBSAN/src/use_after_deallocate.cpp",
+        "file_last_write" : 1591569519.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "/home/akhila/R/testUBSAN/src/use_after_free.cpp",
+                "kind" : 6,
+                "line" : 4,
+                "name" : "rcpp_use_after_free(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_use_after_free#I#"
+            }
+        ],
+        "file" : "/home/akhila/R/testUBSAN/src/use_after_free.cpp",
+        "file_last_write" : 1591569562.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "/home/akhila/R/testUBSAN/src/write_index_outofbound.cpp",
+                "kind" : 6,
+                "line" : 4,
+                "name" : "rcpp_write_index_outofbound(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_write_index_outofbound#I#"
+            }
+        ],
+        "file" : "/home/akhila/R/testUBSAN/src/write_index_outofbound.cpp",
+        "file_last_write" : 1591569588.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 5,
+                "file" : "/home/akhila/R/testUBSAN/src/zero_sized_array.cpp",
+                "kind" : 6,
+                "line" : 4,
+                "name" : "rcpp_zero_sized_array(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_zero_sized_array#I#"
+            }
+        ],
+        "file" : "/home/akhila/R/testUBSAN/src/zero_sized_array.cpp",
+        "file_last_write" : 1591569620.000000
+    }
+]

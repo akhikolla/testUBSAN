@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591594429628.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8409B56B",
+    "lastKnownWriteTime" : 1591596494,
+    "last_content_update" : 1591596494104,
+    "path" : "~/R/testUBSAN/R/CreateRcppTestharness.R",
+    "project_path" : "R/CreateRcppTestharness.R",
+    "properties" : {
+        "cursorPosition" : "138,59",
+        "scrollLine" : "136"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
