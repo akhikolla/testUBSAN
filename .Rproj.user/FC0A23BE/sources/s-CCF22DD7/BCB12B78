@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591660739924.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1948611115",
+    "id" : "BCB12B78",
+    "lastKnownWriteTime" : 1591661405,
+    "last_content_update" : 1591661405090,
+    "path" : "~/R/testUBSAN/tests/testthat/test-write-index-outofbound.R",
+    "project_path" : "tests/testthat/test-write-index-outofbound.R",
+    "properties" : {
+        "cursorPosition" : "6,36",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

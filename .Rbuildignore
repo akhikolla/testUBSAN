@@ -3,4 +3,8 @@
 ^\.Rproj\.user$
 .travis.yml
 .gitignore
+<<<<<<< HEAD
 README.md
+=======
+README.md
+>>>>>>> 70acff2e256f21ce2347c7bfccae03f5749700fd

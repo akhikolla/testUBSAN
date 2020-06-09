@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591594422243.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3100404641",
+    "id" : "CE7F97AA",
+    "lastKnownWriteTime" : 1591661250,
+    "last_content_update" : 1591661250582,
+    "path" : "~/R/testUBSAN/R/errorrcode.R",
+    "project_path" : "R/errorrcode.R",
+    "properties" : {
+        "cursorPosition" : "49,87",
+        "scrollLine" : "8"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
