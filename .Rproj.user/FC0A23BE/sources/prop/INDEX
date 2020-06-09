@@ -11,6 +11,7 @@
 ~%2FR%2FRcppDeepState%2Finst%2Ftestpkgs%2FtestUBSAN%2FRead-and-delete-me="892D593B"
 ~%2FR%2FRcppDeepState%2Finst%2Ftestpkgs%2FtestUBSAN%2Fsrc%2Foverflow.cpp="D0DB17E0"
 ~%2FR%2FRcppDeepState%2Finst%2Ftestpkgs%2FtestUBSAN%2Ftests%2Ftestrcppoverflow.R="C5959CAF"
+~%2FR%2FRcppDeepState%2Ftests%2Ftestthat.R="6C7750E2"
 ~%2FR%2Fsanitizers%2Ftests%2FtestStackAddressSanitize.R="E00653E3"
 ~%2FR%2FtestUBSAN%2F.Rbuildignore="83C03C34"
 ~%2FR%2FtestUBSAN%2FDESCRIPTION="367E6154"

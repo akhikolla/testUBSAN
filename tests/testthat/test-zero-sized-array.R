@@ -10,3 +10,9 @@ test_that("valgrind writing index out of bound", {
   expect_match(user.display$src.file.lines,"zero_sized_array.cpp")
   expect_match(user.display$error.message[1],"Invalid write of size 4")
 })
+
+test_that("zero sized array return value",{
+  vectorvalue=20
+  return_value = testUBSAN::rcpp_zero_sized_array(vectorvalue)
+  expect_equal(return_value,vectorvalue)
+})
