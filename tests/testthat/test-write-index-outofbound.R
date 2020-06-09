@@ -3,6 +3,12 @@ library(data.table)
 context("rcpp_write_index_outofbound")
 library(testUBSAN)
 
+test_that("write index out of bounds",{
+  return_value = testUBSAN::rcpp_write_index_outofbound(100)
+  print(return_value)
+  expect_equal(return_value,100)
+})
+
 
 user.display <- user_error_display("write_index_outofbound_log")
 test_that("valgrind writing index out of bound", {
