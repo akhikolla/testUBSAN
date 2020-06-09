@@ -13,5 +13,5 @@ test_that("valgrind use after free check", {
 
 test_that("use after free return value",{
   return_value = testUBSAN::rcpp_use_after_deallocate(100)
-  expect_gt(return_value,0)
+  expect_type(return_value,"integer")
 })

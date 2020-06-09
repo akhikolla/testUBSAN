@@ -21,5 +21,5 @@ test_that("negative size array", {
 
 test_that("use after deallocate return value",{
   return_value = testUBSAN::rcpp_use_after_deallocate(100)
-  expect_gte(return_value,85)
+  expect_type(return_value,"integer")
 })
