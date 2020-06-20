@@ -29,5 +29,5 @@ env:
 
 script: 
   - |
-    travis_wait 40 R CMD build .
-    travis_wait 60 R CMD check testUBSAN*tar.gz
+    travis_wait R CMD build .
+    travis_wait R CMD check testUBSAN*tar.gz
