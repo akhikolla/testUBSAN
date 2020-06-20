@@ -30,6 +30,7 @@
 ~%2FR%2FtestUBSAN%2FNAMESPACE="A7F1C952"
 ~%2FR%2FtestUBSAN%2FR%2FCreateRcppTestharness.R="CA355AB8"
 ~%2FR%2FtestUBSAN%2FR%2FRcppExports.R="A0462D26"
+~%2FR%2FtestUBSAN%2FR%2Fcompile_run_harness.R="BED31952"
 ~%2FR%2FtestUBSAN%2FR%2Ferrorrcode.R="EFE6D51C"
 ~%2FR%2FtestUBSAN%2FR%2Fsanitizer.R="C222766C"
 ~%2FR%2FtestUBSAN%2FRead-and-delete-me="DCA203D7"

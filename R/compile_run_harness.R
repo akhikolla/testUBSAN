@@ -13,7 +13,7 @@ deep_harness_compile_run <- function(package_name){
     #Sys.glob(file.path(package_name,"inst","include"))here::here("R/RcppDeepState/inst/RcppDeepState/testUBSAN/")
     fun <-gsub("rcpp_","",f)
     compile_line <-paste0("rm -f *.o && make -f ",
-                          system.file("testfiles/testSAN/", package = "RcppDeepState"),"/",fun,
+                          system.file("testfiles/testSAN/", package = "testUBSAN"),"/",fun,
                           ".Makefile "
     )
     print(compile_line) 
