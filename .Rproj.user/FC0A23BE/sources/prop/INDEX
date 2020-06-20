@@ -47,6 +47,7 @@
 ~%2FR%2FtestUBSAN%2Ftests%2Ftestrcppoverflow.R="FFE65890"
 ~%2FR%2FtestUBSAN%2Ftests%2Ftestrcppwriteindexbounds.R="76E51CBD"
 ~%2FR%2FtestUBSAN%2Ftests%2Ftestreadoutofbound.R="3D2298E5"
+~%2FR%2FtestUBSAN%2Ftests%2Ftestthat%2Ftest-compile-run.R="633CF9E9"
 ~%2FR%2FtestUBSAN%2Ftests%2Ftestthat%2Ftest-harness.R="CB571AB5"
 ~%2FR%2FtestUBSAN%2Ftests%2Ftestthat%2Ftest-read-out-of-bound.R="3F9F3011"
 ~%2FR%2FtestUBSAN%2Ftests%2Ftestthat%2Ftest-use-after-deallocate.R="CAA0696F"

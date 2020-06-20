@@ -37,12 +37,6 @@
     },
     {
         "definitions" : [
-        ],
-        "file" : "/home/akhila/R/testUBSAN/src/int_overflow.cpp",
-        "file_last_write" : 1590379958.000000
-    },
-    {
-        "definitions" : [
             {
                 "column" : 5,
                 "file" : "/home/akhila/R/testUBSAN/src/read_out_of_bound.cpp",
