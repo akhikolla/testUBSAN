@@ -92,8 +92,6 @@ test_that("valgrind use after free check", {
 })
 
 
-
-
 path <- system.file("testpkgs/testSAN", package = "testUBSAN")
 dhc<-deep_harness_compile_run(path)
 logfiles<-list_log_files(path)

@@ -75,7 +75,7 @@ create_makefile <-function(package,fun_name){
   write_to_file<-paste(write_to_file,compile.line,obj.file.path)
   dir.create(paste0("/home/",p$val,"testfiles","/",p$packagename,"/",fun_name,"_output"), showWarnings = FALSE)
   #write_to_file<-paste0(write_to_file,"\n\t","valgrind --tool=memcheck --leak-check=yes ","./",test_harness," --fuzz --fuzz_save_passing --output_test_dir"," /home/",p$val,"testfiles","/",p$packagename,"/",fun_name,"_output"," > ","/home/",p$val,"testfiles","/",p$packagename,"/",fun_name,"_log ","2>&1")
-  write_to_file<-paste0(write_to_file,"\n\t","cd ",paste0("/home/",p$val,"testfiles","/",p$packagename)," && ","./",test_harness," --fuzz")
+  #write_to_file<-paste0(write_to_file,"\n\t","cd ",paste0("/home/",p$val,"testfiles","/",p$packagename)," && ","./",test_harness," --fuzz")
   write_to_file<-paste(write_to_file,"\n",paste0("/home/",p$val,"testfiles","/",p$packagename,"/",makefile.name.o),":",paste0("/home/",p$val,"testfiles","/",p$packagename,"/",makefile.name.cpp))
 write_to_file<-paste0(write_to_file,"\n\t","clang++ -I${R_HOME}/include -I/usr/local/lib/R/site-library/Rcpp/include -I/usr/local/lib/R/site-library/RInside/include"," -I",system.file("include",package="testUBSAN")," ", 
                       paste0("/home/",p$val,"testfiles","/",p$packagename,"/",makefile.name.cpp)," -o ",paste0("/home/",p$val,"testfiles","/",p$packagename,"/",makefile.name.o)," -c")
