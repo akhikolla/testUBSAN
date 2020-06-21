@@ -6,7 +6,7 @@
 ##' @export
 deep_harness_analyze_one <- function(packagename,function_name,binary_file){
   fun_name <-gsub("rcpp_","",function_name)
-  exec.path <- system.file("RcppDeepStatefiles/binsegRcpp", package= "RcppDeepState")
+  exec.path <- system.file("testfiles/binsegRcpp", package= "RcppDeepState")
   exec <- paste0("./",fun_name,"_DeepState_TestHarness")
   binary_file=system.file("RcppDeepStatefiles/binsegRcpp/binseg_normal_output/dd5b1543eccdc54b284c00142df7f40c1583ac68.crash",package="RcppDeepState")
   analyze_one <- paste0(";",exec," --input_test_file ",binary_file)
